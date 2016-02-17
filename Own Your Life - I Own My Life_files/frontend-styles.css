@@ -1,0 +1,6 @@
+#video_player.container {
+  padding-bottom: 150px !important;
+}
+#video_player.container #videoplayer {
+  margin: 0 auto;
+}
