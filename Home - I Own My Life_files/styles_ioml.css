@@ -1,3 +1,10 @@
+/* Видео youtube в всплывающем окне */ 
+ #youtubepopup {width: 320px; height: 180px; } 
+ #youtubepopup a {position:relative; float: left; margin:5px;} 
+ #youtubepopup a span { display:block; background-image:url(http://web-first-step.ru/myimg/icons/button-youtube-red.png); background-repeat:no-repeat; width:86px; height:60px; position:absolute; left:38%; top:30%;  } 
+ #youtubepopup img { border: solid 1px #999; padding:5px; }
+ #youtubepopup a:hover span {background-image:url(http://web-first-step.ru/myimg/icons/button-youtube-black.png);}
+/* END-Видео youtube в всплывающем окне */ 
 @font-face {
   font-family: 'Open Sans Light';
   src: url(../common/fonts/OpenSans/OpenSans-Light.ttf);
