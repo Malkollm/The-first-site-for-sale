@@ -44,6 +44,7 @@
 	<meta property="og:image" content="http://images.weserv.nl/?w=1200&amp;h=630&amp;url=iownmylife.net%2Fimg%2Ftemplate%2Fiownmylife.net.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">	<meta property="og:description" content="Home">
 	<meta property="og:type" content="website">
 		<meta property="fb:app_id" content="157220797767409">
+	<link rel="stylesheet" href="/css/colorbox.css" />
 	<link href="Home%20-%20I%20Own%20My%20Life_files/translateelement.css" charset="UTF-8" rel="stylesheet" type="text/css"><script src="Home%20-%20I%20Own%20My%20Life_files/main_ru.js" charset="UTF-8" type="text/javascript"></script><style type="text/css" id="holderjs-style"></style><script src="Home%20-%20I%20Own%20My%20Life_files/element_main.js" charset="UTF-8" type="text/javascript"></script></head>
 <body style="position: relative; min-height: 100%; top: 40px;" id="iownmylife"><div class="skiptranslate" style=""><iframe id=":1.container" class="goog-te-banner-frame skiptranslate" src="javascript:''" style="visibility:visible" frameborder="0"></iframe></div>
 	<div id="outer_container" class="gradient">
@@ -59,9 +60,10 @@
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
-							<!--<a class="navbar-brand logo" href="/">
-								<!--<img src="Home - I Own My Life_files/1_010.png" border="0" alt="Logo" class="img-responsive" />
-							</a>-->
+							<!--Вставить логотип-->
+							<a class="navbar-brand logo" href="/">
+								<img src="Home - I Own My Life_files/logo_ioml.png" border="0" alt="Logo" class="img-responsive" />
+							</a>
 							<div class="hide_badge">
 								<i class="fa fa-user"></i>
 							</div>
@@ -81,30 +83,29 @@
 								</a>
 								<ul style="" id="tabs_section" class="nav navbar-nav">
 								<li class="">
+								
 									<a href="/">
 										Хозяин своей жизни										
 									</a>
-									
-								</li>
-																																<li class="main_nav main_nav_survey">
-									<a href="http://donandnancy.iownmylife.net/own-your-life">
-										Хозяин своей жизни										
-									</a>
-									
-								</li>
-																								<li class="main_nav main_nav_survey">
+
+								<li class="main_nav main_nav_survey">
+								
 									<a href="http://donandnancy.iownmylife.net/own-your-life">
 										Собственная жизнь										
 									</a>
-									
+								
 								</li>
-																																<li>
+								<li>
+								
 									<a href="http://donandnancy.iownmylife.net/contact" class="main_nav main_nav_contact">
 										Наша история									</a>
+								
 								</li>
-																								<li>
+								<li>
+								
 									<a href="http://donandnancy.iownmylife.net/survey" class="main_nav main_nav_survey">
 										Анкета									</a>
+								
 								</li>
 															</ul><ul class="nav navbar-nav">
 								<li></li>
@@ -146,6 +147,14 @@
 				</div>
 			</div>
 		</div> <!-- /End Nav -->
+ <script src="/scripts/jquery.colorbox.js"></script>
+ <script>
+ function openColorBox(){
+$.colorbox({html:"<h1>ПРИВЕТ!</h1>"});
+ }
+ 
+ setTimeout(openColorBox, 5000); /*вот здесь задается время всплытия окна 5000 = 5сек, соответственно 50=5мс, т.е. почти сразу после загрузки страницы*/
+ </script>
 		<div id="main_content">
 			<!--  Here is where the aditional HTML for ALL PAGES will go  -->
 			<script src="Home%20-%20I%20Own%20My%20Life_files/stellar_parallax.js"></script>
@@ -215,7 +224,7 @@
 		<img class="oyl-logo" src="Home%20-%20I%20Own%20My%20Life_files/ownyourlife_logo.png">
 		<h1>Ваш офис похож на этот?</h1>
 		<button class="video-overlay-trigger">
-			<img src="Home%20-%20I%20Own%20My%20Life_files/video_thumb.png">
+			
 			<span>PLAY VIDEO</span>
 		</button>
 	</div>
@@ -276,110 +285,9 @@
 			<li><i></i>Что делало бы Вас счастливым?</li>
 		</ul>
 	</div>
-	<div class="grid wrapper buttons">
-		<div class="column one-third txt-left">
-			<a class="clear-btn" href="http://donandnancy.iownmylife.net/own-your-life">СОБСТВЕННАЯ ЖИЗНЬ</a>
-		</div>
-		<div class="column one-third txt-center">
-			<a class="clear-btn" href="http://donandnancy.iownmylife.net/contact">МОЯ ИСТОРИЯ</a>
-		</div>
-		<div class="column one-third txt-right">
-			<a class="clear-btn" href="http://donandnancy.iownmylife.net/survey">ИЗУЧИТЬ БОЛЬШЕ</a>
-		</div>
-	</div>
-	<div class="wrapper carousel"><div id="video_player" class="container">
-    <div id="videoplayer" class="col-lg-9 col-centered">
-    	<div class="brightcove_player_container">
-	<!-- Start of Brightcove Player -->
-	<div style="display:none"></div>
 
-	<!-- By use of this code snippet, I agree to the Brightcove Publisher T and C found at https://accounts.brightcove.com/en/terms-and-conditions/. -->
+</div>
 
-	<script language="JavaScript" type="text/javascript" src="Home%20-%20I%20Own%20My%20Life_files/BrightcoveExperiences.js"></script>
-	<script language="JavaScript" type="text/javascript" src="Home%20-%20I%20Own%20My%20Life_files/APIModules_all.js"></script>
-
-	<div id="bc_object"><object seamlesstabbing="undefined" class="BrightcoveExperience" id="myExperience" data="Home%20-%20I%20Own%20My%20Life_files/federated_f9" type="application/x-shockwave-flash" height="354" width="631"><param value="always" name="allowScriptAccess"><param value="true" name="allowFullScreen"><param value="false" name="seamlessTabbing"><param value="true" name="swliveconnect"><param value="transparent" name="wmode"><param value="high" name="quality"><param value="#FFFFFF" name="bgcolor"></object></div>
-	<script type="text/javascript">brightcove.createExperiences();</script>
-
-	<!-- End of Brightcove Player -->
-	</div>  	</div>
-</div>
-		<!-- ============ Video Carousel ========= -->
-<div id="video_carousel" class="container">
-	<div id="carousel">
-		<div class="row">
-			<div style="opacity: 1; display: block;" id="owl_carousel" class="owl-carousel owl-theme">
-								<div class="owl-wrapper-outer"><div style="width: 6244px; left: 0px; display: block;" class="owl-wrapper"><div style="width: 223px;" class="owl-item"><div style="height: 250px; word-wrap: break-word;" class="item active"><a href="javascript:loadVideoID(885448323001)" class="video-thumb-link"><img src="Home%20-%20I%20Own%20My%20Life_files/1_012.png" class="img-responsive video_thumb_885448323001 current_video_thumb" alt=""></a><span style="word-wrap: break-word;" class="video-title">45 Second Presentation - Don Failla</span><span class="dot3 video-description"><p style="word-wrap: break-word;">How much time do you have during the day to do what you love doing? After subtracting the time we... </p></span></div></div><div style="width: 223px;" class="owl-item"><div style="height: 250px; word-wrap: break-word;" class="item">
-					<a href="javascript:loadVideoID(885389197001)" class="video-thumb-link"><img src="Home%20-%20I%20Own%20My%20Life_files/1_007.png" class="video_thumb img-responsive video_thumb_885389197001" alt=""></a>
-                    <span style="word-wrap: break-word;" class="video-title">Napkin Presentation #1</span>
-					<span class="dot3 video-description"><p style="word-wrap: break-word;">Making a real difference is as simple as sponsoring just one more person. Watch this video to learn more.</p></span>
-				</div></div><div style="width: 223px;" class="owl-item"><div style="height: 250px; word-wrap: break-word;" class="item">
-					<a href="javascript:loadVideoID(885448406001)" class="video-thumb-link"><img src="Home%20-%20I%20Own%20My%20Life_files/1_006.png" class="video_thumb img-responsive video_thumb_885448406001" alt=""></a>
-                    <span style="word-wrap: break-word;" class="video-title">Napkin Presentation #2</span>
-					<span class="dot3 video-description"><p style="word-wrap: break-word;">Network
- marketing isn't about selling product, it's about teaching people to 
-better their lives. Watch this video to learn more. &nbsp;</p></span>
-				</div></div><div style="width: 223px;" class="owl-item"><div style="height: 250px; word-wrap: break-word;" class="item">
-					<a href="javascript:loadVideoID(885370842001)" class="video-thumb-link"><img src="Home%20-%20I%20Own%20My%20Life_files/1_011.png" class="video_thumb img-responsive video_thumb_885370842001" alt=""></a>
-                    <span style="word-wrap: break-word;" class="video-title">Napkin Presentation #3</span>
-					<span class="dot3 video-description"><p style="word-wrap: break-word;">How is network marketing like driving a car? Watch this video to learn more.</p></span>
-				</div></div><div style="width: 223px;" class="owl-item"><div style="height: 250px; word-wrap: break-word;" class="item"><a href="javascript:loadVideoID(885370839001)" class="video-thumb-link"><img src="Home%20-%20I%20Own%20My%20Life_files/1_008.png" class="video_thumb img-responsive video_thumb_885370839001" alt=""></a><span style="word-wrap: break-word;" class="video-title">Napkin Presentation #4</span><span class="dot3 video-description"><p style="word-wrap: break-word;">The
- metaphors continue as Don Failla compares network marketing to the 
-building of a large skyscraper: You must start with a nice... </p></span></div></div><div style="width: 223px;" class="owl-item"><div style="height: 250px; word-wrap: break-word;" class="item">
-					<a href="javascript:loadVideoID(885488279001)" class="video-thumb-link"><img src="Home%20-%20I%20Own%20My%20Life_files/1_003.png" class="video_thumb img-responsive video_thumb_885488279001" alt=""></a>
-                    <span style="word-wrap: break-word;" class="video-title">Napkin Presentation #5</span>
-					<span class="dot3 video-description"><p style="word-wrap: break-word;">In
- network marketing it's important to spend your time and efforts in only
- the most promising places. Watch this video to learn more. &nbsp;</p></span>
-				</div></div><div style="width: 223px;" class="owl-item"><div style="height: 250px; word-wrap: break-word;" class="item">
-					<a href="javascript:loadVideoID(885389180001)" class="video-thumb-link"><img src="Home%20-%20I%20Own%20My%20Life_files/1_005.png" class="video_thumb img-responsive video_thumb_885389180001" alt=""></a>
-                    <span style="word-wrap: break-word;" class="video-title">Napkin Presentation #6</span>
-					<span class="dot3 video-description"><p style="word-wrap: break-word;">Third
- party invitations are a great way to invite people to join your 
-business or opportunity. Watch this video to learn more. &nbsp;</p></span>
-				</div></div><div style="width: 223px;" class="owl-item"><div style="height: 250px; word-wrap: break-word;" class="item">
-					<a href="javascript:loadVideoID(885574065001)" class="video-thumb-link"><img src="Home%20-%20I%20Own%20My%20Life_files/1_014.png" class="video_thumb img-responsive video_thumb_885574065001" alt=""></a>
-                    <span style="word-wrap: break-word;" class="video-title">Napkin Presentation #7</span>
-					<span class="dot3 video-description"><p style="word-wrap: break-word;">It's essential to spend the majority of your time helping new sponsors find success. Watch this video to learn more. &nbsp;</p></span>
-				</div></div><div style="width: 223px;" class="owl-item"><div style="height: 250px; word-wrap: break-word;" class="item">
-					<a href="javascript:loadVideoID(885370823001)" class="video-thumb-link"><img src="Home%20-%20I%20Own%20My%20Life_files/1_009.png" class="video_thumb img-responsive video_thumb_885370823001" alt=""></a>
-                    <span style="word-wrap: break-word;" class="video-title">Napkin Presentation #8</span>
-					<span class="dot3 video-description"><p style="word-wrap: break-word;">Finding new prospects could be as easy as wearing your “Own Your Life” pin. Watch this video to learn more. &nbsp;</p></span>
-				</div></div><div style="width: 223px;" class="owl-item"><div style="height: 250px; word-wrap: break-word;" class="item"><a href="javascript:loadVideoID(885573567001)" class="video-thumb-link"><img src="Home%20-%20I%20Own%20My%20Life_files/1.png" class="video_thumb img-responsive video_thumb_885573567001" alt=""></a><span style="word-wrap: break-word;" class="video-title">Napkin Presentation #9</span><span class="dot3 video-description"><p style="word-wrap: break-word;">Attitude is essential to finding success in network marketing. Watch this video to learn more about maximizing your... </p></span></div></div><div style="width: 223px;" class="owl-item"><div style="height: 250px; word-wrap: break-word;" class="item"><a href="javascript:loadVideoID(885363557001)" class="video-thumb-link"><img src="Home%20-%20I%20Own%20My%20Life_files/1_013.png" class="video_thumb img-responsive video_thumb_885363557001" alt=""></a><span style="word-wrap: break-word;" class="video-title">Napkin Presentation #10</span><span class="dot3 video-description"><p style="word-wrap: break-word;">Growing your organization is simple mathematics. Watch this video to see how you can increase the size and... </p></span></div></div><div style="width: 223px;" class="owl-item"><div style="height: 250px; word-wrap: break-word;" class="item"><a href="javascript:loadVideoID(885448380001)" class="video-thumb-link"><img src="Home%20-%20I%20Own%20My%20Life_files/1_004.png" class="video_thumb img-responsive video_thumb_885448380001" alt=""></a><span style="word-wrap: break-word;" class="video-title">45 Second Presentation - Nancy Failla</span><span class="dot3 video-description"><p style="word-wrap: break-word;">How much time do you have during the day to do what you love doing? After subtracting the time we... </p></span></div></div><div style="width: 223px;" class="owl-item"><div style="height: 250px; word-wrap: break-word;" class="item"><a href="javascript:loadVideoID(885389204001)" class="video-thumb-link"><img src="Home%20-%20I%20Own%20My%20Life_files/1_002.png" class="video_thumb img-responsive video_thumb_885389204001" alt=""></a><span style="word-wrap: break-word;" class="video-title">Why Network Marketing</span><span class="dot3 video-description"><p style="word-wrap: break-word;">Earning residual income is the key to owning your life. Stop looking for jobs and start looking for an... </p></span></div></div><div style="width: 223px;" class="owl-item"><div style="height: 250px; word-wrap: break-word;" class="item"><a href="javascript:loadVideoID(885448316001)" class="video-thumb-link"><img src="Home%20-%20I%20Own%20My%20Life_files/1_010.png" class="video_thumb img-responsive video_thumb_885448316001" alt=""></a><span style="word-wrap: break-word;" class="video-title">What Does It Mean to Own Your Life?</span><span class="dot3 video-description"><p style="word-wrap: break-word;">Owning your own life doesn't necessarily mean driving luxurious cars and living in expensive houses, although... </p></span></div></div></div></div>
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-							</div>
-			<div style="display: block;" class="customNavigation">
-				<a class="btn prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-				<a class="btn next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-			</div>
-		</div>
-	</div>
-</div>
-	</div>
-	<div class="wrapper buttons txt-center">
-		<a class="clear-btn" href="http://donandnancy.iownmylife.net/survey">FREE eBOOK</a>
-	</div>
-</div>
-<script src="Home%20-%20I%20Own%20My%20Life_files/jquery-ui.js"></script>
-<script src="Home%20-%20I%20Own%20My%20Life_files/stellar_parallax.js"></script>
-<script>
-$(window).load(function(){
-  $('.what-would-you-do .wrapper.carousel .item').dotdotdot();
-});
-</script>
-</div>
 <script type="text/javascript">
 $(document).ready(function(){
 	loadVideoID(885448323001);
@@ -387,7 +295,7 @@ $(document).ready(function(){
 </script>
 		</div> <!-- /main content -->
 		<!-- FOOTER -->
-		<footer>
+		<!--<footer>
 			<div class="container">
 				<p class="pull-right">
 					<a href="#">Back to top</a>
@@ -404,7 +312,7 @@ $(document).ready(function(){
 				<p>©2016 Sound Concepts <span class="pipe">|</span> <a href="http://donandnancy.iownmylife.net/privacy">Privacy Policy</a>								<span class="pipe">|</span> <a href="http://donandnancy.iownmylife.net/sitemap">Site Map</a>								</p>
 			</div>
 		</footer>
-	</div><!-- /.container -->
+	</div>--><!-- /.container -->
 	<!-- Bootstrap core JavaScript
 	================================================== -->
 	
