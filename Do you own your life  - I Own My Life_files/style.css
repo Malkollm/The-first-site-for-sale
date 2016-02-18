@@ -2142,18 +2142,13 @@ div.submit {
   background: none;
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
-#full_body_ioml.survey-page #stage .survey_h .flavor-title {
-  display: block;
-  font-size: 55px;
-  color: #34bbae;
-  font-weight: 600;
-}
+
 #full_body_ioml.survey-page #stage .survey_container {
   padding: 0;
   width: 100%;
 }
 #full_body_ioml.survey-page #stage .survey_container #SurveyAnswerAddForm {
-  background: url(/img/geometric_bg_big.jpg) top center no-repeat;
+  background: #34bbae;
   background-size: cover;
   padding: 5% 0;
   font-size: 18px;
