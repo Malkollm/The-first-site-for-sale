@@ -668,7 +668,7 @@ body,
 #main_content .page_home .what-would-you-do .wrapper.list .question-list li {
   font-family: 'Open Sans Light', Helvetica, sans-serif;
   position: relative;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 50px;
   padding-left: 15px;
   margin: 15px 0;
@@ -677,7 +677,7 @@ body,
   display: block;
   float: left;
   overflow: hidden;
-  background-image: url(/img/list_icons.png);
+  background-image: url(Home - I Own My Life_files/list_icons.png);
   background-size: 100%;
   width: 50px;
   height: 50px;

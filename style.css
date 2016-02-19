@@ -1,0 +1,24 @@
+body{width:90%; margin:0 auto; text-align:center} h1{font-family:Verdana, Geneva, sans-serif; color:#066} h2{font-style:italic; border-bottom:thin solid #F33; color:#F33}
+
+.buttons {
+  text-align: center;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 3px;
+  background: rgb(64,199,129);
+  box-shadow: 0 -3px rgb(53,167,110) inset;
+  transition: 0.2s;
+  width: 90px;
+  height: 35px;
+  margin-left: auto;
+    margin-right: auto;
+} 
+.buttons:active {
+  background: rgb(33,147,90);
+  box-shadow: 0 3px rgb(33,147,90) inset;
+}
+.green-btn {
+  text-transform: uppercase;
+}
